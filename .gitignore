@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# uv / virtualenv
+.venv/
+
+# Local env
+.env

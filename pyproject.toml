@@ -1,0 +1,14 @@
+[project]
+name = "dummy-mcp-server"
+version = "0.1.0"
+description = "Dummy FastMCP server for testing mcphost.eu deployments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.0.0",
+]
+
+[tool.uv]
+# An application, not a library: install the dependencies into the venv but do
+# not try to build/install this project itself (no package layout needed).
+package = false
