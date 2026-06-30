@@ -25,6 +25,12 @@ def echo(message: str) -> str:
 
 
 @mcp.tool
+def echo_rollback(message: str) -> str:
+    """Return the given message unchanged."""
+    return message
+
+
+@mcp.tool
 def whoami() -> dict[str, str]:
     """Report the deployment's slug, to confirm which server answered."""
     return {"slug": os.environ.get("PROJECT_SLUG", "unknown")}
