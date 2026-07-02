@@ -1,5 +1,0 @@
-# Deploy manifest for mcphost.eu
-name: dummy-mcp-server
-entrypoint: server.py
-python_version: "3.12"
-port: 8000
